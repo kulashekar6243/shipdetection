@@ -44,7 +44,7 @@ if uploaded_file is not None:
         st.image(image, caption='Uploaded boat image.', use_column_width=True)
         st.write("")
         st.write("Classifying...")
-        label = teachable_machine_classification(image, 'converted_keras(3)/keras_model.h5')
+        label = teachable_machine_classification(image, 'keras_model.h5')
         st.write(boats[label])
         
 
