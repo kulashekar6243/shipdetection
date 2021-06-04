@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 import numpy as np
 
 boats = {0:"Buoy",1:"cruise",2:"sail boat",
-         3:"inflatable boart",4:"freight boat",
+         3:"inflatable boart",4:"anomoly detected",
          5:"kayak"}
 
 def teachable_machine_classification(img, weights_file):
